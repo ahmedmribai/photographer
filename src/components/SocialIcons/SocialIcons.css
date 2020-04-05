@@ -1,0 +1,47 @@
+.social-box {
+    padding: 15px 5px;
+  }
+  
+  .social {
+    margin: 0 0.8rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  .social:hover {
+    transform: translateY(-4px);
+  }
+  
+  .youtube {
+    color: #eb3223;
+  }
+  
+  .facebook {
+    color: #4968ad;
+  }
+  
+  .twitter {
+    color: #49a1eb;
+  }
+  
+  .instagram {
+    color:  linear-gradient(101deg, #78e4ff, #ff48fa);
+  }
+
+  .social-title {
+      color: white;
+      padding-left: 15px;
+      padding-top: 55px;
+      font-size: 2vw;
+      
+  }
+  @media only screen and (max-width: 767px) {
+    .social-box {
+        padding: 0 16% 15%;
+      }
+      .social-title {
+        padding: 38% 25% 0;
+        font-size: 5vw;
+        
+    }
+  }

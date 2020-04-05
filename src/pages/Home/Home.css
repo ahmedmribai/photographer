@@ -1,0 +1,39 @@
+.background-new {
+  background-image: url("../../assets//background/Untitled-1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.title {
+  color: antiquewhite;
+  padding-left: 10%;
+  padding-top: 10%;
+  font-size: 7vw;
+  font-family: "Stencil Std";
+}
+#contact-button {
+  margin-top: 70px;
+  margin-left: 33%;
+}
+
+@media only screen and (max-width: 767px) {
+  .conatainer {
+    background-image: url("../../assets//background/Untitled-1.png");
+  }
+  .title {
+    color: antiquewhite;
+    padding-left: 8%;
+    padding-top: 150px;
+    justify-content: center;
+    font-size: 11vw;
+  }
+  #contact-button {
+    margin-top: 90px;
+    margin-left: 31%;
+  }
+}
+
+
