@@ -11,9 +11,11 @@ const Home = () => {
         <br />
         OUED ZARGA
       </h1>
-      <button className="button" id="contact-button">
+      <div className="contact-button">
+      <a className="button"   href = '/contact'>
         contact
-      </button>
+      </a>
+      </div>
       <SocialIcons />
     </div>
   );

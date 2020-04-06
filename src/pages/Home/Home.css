@@ -2,9 +2,9 @@
   background-image: url("../../assets//background/Untitled-1.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
   background-size: cover;
-  height: 100%;
+  height: calc(107.6vh - 50px);
+  overflow-y: hidden;
   width: 100%;
 }
 .title {
@@ -14,8 +14,8 @@
   font-size: 7vw;
   font-family: "Stencil Std";
 }
-#contact-button {
-  margin-top: 70px;
+.contact-button {
+  padding-top: 50px;
   margin-left: 33%;
 }
 
@@ -30,7 +30,7 @@
     justify-content: center;
     font-size: 11vw;
   }
-  #contact-button {
+  .contact-button {
     margin-top: 90px;
     margin-left: 31%;
   }

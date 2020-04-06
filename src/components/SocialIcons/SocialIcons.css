@@ -1,5 +1,5 @@
 .social-box {
-    padding: 15px 5px;
+    padding: 15px 5px 0;
   }
   
   .social {
@@ -31,16 +31,16 @@
   .social-title {
       color: white;
       padding-left: 15px;
-      padding-top: 55px;
+      padding-top: 105px;
       font-size: 2vw;
       
   }
   @media only screen and (max-width: 767px) {
     .social-box {
-        padding: 0 16% 15%;
+        padding: 0 19% 0 ;
       }
       .social-title {
-        padding: 38% 25% 0;
+        padding: 50% 28% 0;
         font-size: 5vw;
         
     }

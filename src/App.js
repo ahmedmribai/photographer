@@ -1,4 +1,5 @@
-import React from "react";
+import React, {Fragment} from "react";
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -8,13 +9,17 @@ import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
-    <div>
+    <Router>
+      <Fragment>
       <Navbar />
-      {/*<Home />*/}
-      {/*<About />*/}
-      {/*<GalleryGrid />*/}
-      <Contact />
-    </div>
+      <Switch>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/about' component={About} />
+      <Route exact path='/gallery' component={GalleryGrid} />
+      <Route exact path='/contact' component={Contact} />
+      </Switch>
+      </Fragment>
+    </Router>
   );
 };
 
